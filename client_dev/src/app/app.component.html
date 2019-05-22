@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuno - Responsive Bootstrap Theme</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Start Home Section -->
+<div id="home">
+  <!-- Navigation -->
+
+  <div class="container-fluid fixed-top">
+    <div class="row navbar-dark">
+      <div class="col-sm-12">
+          <div class="phoneNumber">
+              <i class="fas fa-phone"></i> 647 269 541
+          </div>
+      </div>
+    </div>
+      
+        <nav class="navbar navbar-expand-lg navbar-dark">
+        
+           <!-- <a class="navbar-brand" href="index.html"><img src="./assets/css/img/iconoTitulo2.png" style="width:50%"></a> -->
+            <button class="navbar-toggler" id="navbar-button-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" [routerLink]="['/']">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" [routerLink]="['/contacto']" >Te llamamos</a>
+                <a class="nav-item nav-link active" [routerLink]="['/datos']" >Escribenos</a>
+                <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+              </div>
+            </div>    
+          </nav>
+  </div>
+  
+  <!-- End Navigation -->
+
+</div>
+    
+
+<div class="divTituloLogo">
+
+  <div class="divtitulo2">
+      <img src="./assets/css/img/logos/logo.png">
+  </div>
+
+  <div class="franjaArriba">
+    
+  </div>
+
+  <div class="franjaCentral">
+    <div class="titulo1">
+      <h1>JARDINS JORDI</h1>
+    </div>
+    
+    <div class="titulo3">
+      <h1></h1>
+    </div>
+  </div>
+  
+  <div class="franjaAbajo">
+    
+  </div>
+</div>
+
+<!--- End Home Section -->
+
+    <router-outlet></router-outlet>
+
+  <!-- Start Contact Section -->
+<div class="contact" class="offset">
+    <footer>
+      <div class="row justify-content-center">
+  
+        <div class="col-md-5 text-center">
+          <img src="./assets/css/img/iconoArbol2.png">
+          <p>Especialistas en poda de arboles, palmas y jardineria en general. Amplio catálogo y variedad de servicios. LLámenos sin compromiso y le atenderemos encantados.</p>
+          <strong>Informacion de contacto</strong>
+          <p> 647 269 541 <br> podasyjardines.jordy@gmail.com </p>
+  
+          <a href="https://www.facebook.com/jorge.avellaneda.94801" target="_blank"><i class="fab fa-facebook-square"></i></a>
+
+        </div>
+        <!--
+        <hr class="socket">
+        &copy; Nuno Theme.
+        -->
+      </div>
+    </footer>
+  </div>
+  <!-- End Contact Section -->
+  
+
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+
+</body>
+</html>
+
+
+
